@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load images, each in its own section with AOS animation
   for (let i = 1; i <= totalPages; i++) {
-    // Section wrapper for AOS
+    // Section wrapper for book page
     const section = document.createElement('section');
-    section.className = 'py-4';
+    section.className = 'py-0';
     section.setAttribute('data-aos', 'fade-up');
 
     // Image wrapper for skeleton and fade-in
